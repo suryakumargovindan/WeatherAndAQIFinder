@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="WeatherAPITest">
+  
+ <classes>
+ <class name="com.weather.aqi.WeatherApiApplicationTests"></class>
+  <class name="com.weather.aqi.AQIApplicationTest"></class>
+  <class name="com.weather.aqi.FlagURLTest"></class>
+  <class name="com.weather.aqi.ConsolidatedAPITest"></class>
+ </classes>
+  
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
